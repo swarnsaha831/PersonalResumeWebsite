@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+}
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+.header {
+    text-align: center;
+    padding: 20px 0;
+}
+h2 {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+}
+nav {
+    margin-top: 0%;
+    margin-bottom: 20px;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+}
+.navbar {
+    transition: background-color 0.3s ease;
+}
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+  }
