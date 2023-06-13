@@ -31,12 +31,12 @@ nav {
     top: 0;
     z-index: 100;
     background-color: white;
-  }
+}
 .subtext {
     font-size: smaller; /* Adjust the font size as needed */
     display: block; /* Ensures subtext appears on a new line */
     color: lightslategray;
-  }
+}
 p {
     color: aliceblue
 }
@@ -46,7 +46,7 @@ h1 {
 }
 .bg-custom {
     background-color: steelblue;
-  }
+}
 .profile-pic {
     width: 200px;
     height: 200px;
@@ -54,4 +54,6 @@ h1 {
     overflow: hidden;
     margin: 0 auto; /* This will center the image if the parent container is a flexbox */
 }
-  
+h3 {
+    color: lightskyblue;
+} 
