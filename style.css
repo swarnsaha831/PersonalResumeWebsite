@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: lightgray;
+    background-color: hsl(0, 0%, 10%);
 }
 .container {
     max-width: 960px;
@@ -13,6 +13,7 @@ body {
 h2 {
     border-bottom: 1px solid #ccc;
     padding-bottom: 10px;
+    color: lightskyblue;
 }
 nav {
     margin-top: 0%;
@@ -20,17 +21,29 @@ nav {
 }
 .navbar-brand {
     font-size: 1.5rem;
+    color: aliceblue;
 }
 .navbar {
-    transition: background-color 0.3s ease;
+    transition: background-color 0.05s ease;
 }
 .navbar {
     position: sticky;
     top: 0;
     z-index: 100;
-    background-color: #fff;
+    background-color: white;
 }
 .subtext {
     font-size: smaller; /* Adjust the font size as needed */
     display: block; /* Ensures subtext appears on a new line */
+    color: lightslategray;
 }
+p {
+    color: aliceblue
+}
+h1 {
+    color: lightskyblue;
+}
+.bg-custom {
+    background-color: steelblue;
+}
+  
