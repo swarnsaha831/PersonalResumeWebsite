@@ -34,3 +34,8 @@ body {
 .list-group-item.high {
     background-color: #f8d7da; 
 }
+label[for="prioritySelect"] {
+    padding-top: 7px;  
+    padding-bottom: 5px;  
+    padding-left: 9px
+}
