@@ -53,6 +53,7 @@ h1 {
     border-radius: 50%;
     overflow: hidden;
     margin: 0 auto; 
+    object-fit: cover;
 }
 h3 {
     color: lightskyblue;
